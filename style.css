@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(background.JPG);
+    background-size:contain;
+    background-position:unset;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 5rem;
+    font-weight: 300;
+    cursor: pointer;
+    
+}
+
+.cabeçalho-link a{
+    color: white;
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover{
+    color: #0505fe;
+    transition: 0.7s all;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: 2px solid darkblue;
+    color: darkblue;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button{
+    color: #0505fe;
+    background: transparent;
+    border: solid 2px #0505fe;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0505fe;
+    color: white;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0px 0px 130px;
+}
+
+.text h3{
+    color: white;
+    font-size: 15px;
+}
+
+.text h1{
+    color: white;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #0505fe;
+}
+
+.text p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais{
+    margin-top: 5px;
+}
+
+.redes-sociais a{
+    color:#0505fe;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn{
+    margin-top: 10px;
+}
